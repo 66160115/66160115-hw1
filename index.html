@@ -1,23 +1,76 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>5 ทะเลน่าไปชลบุรี</title>
- <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
- <header>
- <nav>
- <ul>
- <li><a href="index.html" class="active">หน้าแรก</a></li>
- <li><a href="about.html">รายละเอียด</a></li>
- <li><a href="contact.html">ติดต่อเรา</a></li>
- </ul>
- </nav>
- </header>
- <main>
- <h1>ทะเล 5 แห่งที่แนะนำในจังหวัดชลบุรี</h1>
- </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 ทะเลน่าไปชลบุรี</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+
+        <label for="menu-toggle" class="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </label>
+
+        <ul class="menu">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="content.html">รายละเอียด</a></li>
+          <li><a href="contact.html">ติดต่อเรา</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>ทะเล 5 แห่งที่แนะนำในจังหวัดชลบุรี</h1>
+      <div class="slider">
+        <input type="radio" name="slide" id="slide1" checked />
+        <input type="radio" name="slide" id="slide2" />
+        <input type="radio" name="slide" id="slide3" />
+        <input type="radio" name="slide" id="slide4" />
+
+        <div class="slides">
+          <div class="slide">
+            <img src="images/บางเสร่1.jpeg" alt="หาดบางเสร่" /><!--https://www.checkinchill.com/content/bang-saray-hotel/-->
+          </div>
+          <div class="slide">
+            <img src="images/หาดจอมเทียน1.jpg" alt="หาดจอมเทียน" /><!--https://pantip.com/topic/42137316/desktop-->
+          </div>
+          <div class="slide">
+            <img src="images/บางแสน1.jpg" alt="หาดบางแสน" /><!--https://pantip.com/topic/34573710-->
+          </div>
+          <div class="slide">
+            <img src="images/พัทยา1.jpg" alt="หาดพัทยา" /><!--https://baanpuck.com-->
+          </div>
+        </div>
+
+        <div class="navigation">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+        </div>
+      </div>
+      <div class="hilight">
+        <h2>ไฮไลท์</h2>
+          <img src="images/บางแสน2.jpg" alt="หาดบางแสน" /><!--https://travel.trueid.net/detail-->
+          <p>หาดบางแสน</p>
+          <img src="images/พัทยา2.jpg" alt="หาดพัทยา" /><!--https://thailandtourismdirectory.go.th/attraction-->
+          <p>หาดพัทยา</p>
+          <img src="images/จอมเทียน2.jpg" alt="หาดจอมเทียน" /><!--https://food.baomuctim.com/-->
+          <p>หาดจอมเทียน</p>
+          <img src="images/บางเสร่2.jpg" alt="หาดบางเสร่" /><!--https://roijang.com-->
+          <p>หาดบางเสร่</p>
+          <img src="images/ทราย3.jpg" alt="หาดทรายแก้ว" /><!--https://th.tripadvisor.com/Attraction_Review-g612389-d3860704-Reviews-Sai_Kaew_Beach-Sattahip_Chonburi_Province.html-->
+          <p>หาดทรายแก้ว</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 ทะเลสวยชลบุรี</p>
+    </footer>
+  </body>
 </html>
