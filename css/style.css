@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+body {
+  font-family: Itim,Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #daeeff;
+  color: #444444;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #9dc1e9;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+main {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #253d80;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 16pt;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  text-align: left;
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"] {
+  background-color: #f3f3f3;
+  border: 1pt solid #5a639c;
+  border-radius: 5pt;
+  height: 30pt;
+  padding: 2px 90px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  background-color: #f3f3f3;
+  border: 1pt solid #5a639c;
+  border-radius: 5pt;
+  height: 70pt;
+  padding: 2px 5px;
+  resize: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
