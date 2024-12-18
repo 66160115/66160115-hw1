@@ -25,8 +25,8 @@ nav a {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 nav a:hover {
-  color: #f0f8ff; /* Change text color on hover */
-  transform: scale(1.1); /* Slightly scale up the text */
+  color: #f0f8ff; 
+  transform: scale(1.1); 
 }
 main {
   padding: 20px;
